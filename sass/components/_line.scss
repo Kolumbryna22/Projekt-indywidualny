@@ -1,0 +1,11 @@
+.line-vertical {
+  background-color: $color-line;
+  width: 2px;
+  height: 100%;
+}
+
+.line-horizontal {
+  background-color: $color-line;
+  width: 100%;
+  height: 2px;
+}
