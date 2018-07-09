@@ -474,13 +474,13 @@ body {
 
 .line-vertical {
   background-color: #e3e3e3;
-  width: 2px;
+  width: 1px;
   height: 100%; }
 
 .line-horizontal {
   background-color: #e3e3e3;
   width: 100%;
-  height: 2px; }
+  height: 1px; }
 
 .link-style {
   color: #56819f;
@@ -499,5 +499,20 @@ body {
   .header p {
     font-size: 28px;
     color: #a6a6a6; }
+
+.navigation {
+  position: fixed;
+  width: 187px;
+  height: 100%;
+  background-color: #191919;
+  color: #818181; }
+  .navigation .navigation-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 19px;
+    height: 45px; }
+  .navigation .line-horizontal {
+    margin: 20px 0; }
 
 /*# sourceMappingURL=style.css.map */
