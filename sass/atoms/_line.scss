@@ -2,10 +2,13 @@
   background-color: $color-line;
   width: 1px;
   height: 100%;
+  float: left;
 }
 
 .line-horizontal {
   background-color: $color-line;
   width: 100%;
   height: 1px;
+  float: left;
+  margin-bottom: 41px;
 }

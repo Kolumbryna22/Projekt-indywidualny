@@ -1,0 +1,25 @@
+.info-container {
+    width: 100%;
+    max-width: 600px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+
+    .line-horizontal {
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+}
+
+.info-title {
+    color: $color-title;
+    float: left;
+    width: 60%;
+    @include clear-mp;
+}
+
+.info-text {
+    float: right;
+    text-align: end;
+    width: 40%;
+    @include clear-mp;
+}

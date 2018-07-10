@@ -1,6 +1,5 @@
 .section-title {
     text-transform: uppercase;
-    font-size: 16px;
     color: $color-title;
     padding-top: 15px;
     padding-left: 15px;
@@ -10,4 +9,9 @@
     width: 100%;
     padding-bottom: 41px;
     background-color: $color-section-background;
+}
+
+.section-form {
+    text-align: center;
+    padding: 44px 0;
 }
