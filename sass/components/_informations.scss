@@ -9,17 +9,3 @@
         margin-bottom: 0;
     }
 }
-
-.info-title {
-    color: $color-title;
-    float: left;
-    width: 60%;
-    @include clear-mp;
-}
-
-.info-text {
-    float: right;
-    text-align: end;
-    width: 40%;
-    @include clear-mp;
-}
