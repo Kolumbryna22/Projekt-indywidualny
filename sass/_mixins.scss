@@ -8,7 +8,7 @@
 @mixin button-style($back-color, $color, $radius) {
   background-color: $back-color;
   color: $color;
-  border: none;
+  border: 2px solid $back-color;
   border-radius: $radius;
   text-transform: uppercase;
   cursor: pointer;

@@ -488,7 +488,7 @@ a {
 .button-normal {
   background-color: #f58220;
   color: white;
-  border: none;
+  border: 2px solid #f58220;
   border-radius: 3px;
   text-transform: uppercase;
   cursor: pointer;
@@ -502,7 +502,7 @@ a {
 .button-hamburger {
   background-color: #191919;
   color: #818181;
-  border: none;
+  border: 2px solid #191919;
   border-radius: 3px;
   text-transform: uppercase;
   cursor: pointer;
@@ -677,7 +677,7 @@ section {
 
 .section-container {
   width: 100%;
-  padding-bottom: 41px;
+  padding-bottom: 40px;
   background-color: white; }
 
 .section-input {
@@ -752,5 +752,23 @@ section {
       height: 40px; }
   .navigation .line-horizontal {
     margin: 20px 0; }
+
+.data-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px; }
+  .data-container .data-form {
+    width: 327px;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    display: flex;
+    margin-right: 20px; }
+    .data-container .data-form p {
+      margin: 0;
+      padding: 15px 50px 15px 15px; }
+    .data-container .data-form .line-vertical {
+      height: 31px;
+      margin-top: 7px; }
 
 /*# sourceMappingURL=style.css.map */
