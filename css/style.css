@@ -771,4 +771,17 @@ section {
       height: 31px;
       margin-top: 7px; }
 
+.table-statistic {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; }
+  .table-statistic th,
+  .table-statistic td {
+    border-bottom: 1px solid #e3e3e3;
+    text-align: left;
+    padding: 20px 15px; }
+  .table-statistic th {
+    color: #a6a6a6; }
+
 /*# sourceMappingURL=style.css.map */

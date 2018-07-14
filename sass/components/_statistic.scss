@@ -1,0 +1,17 @@
+.table-statistic {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+    th,
+    td {
+        border-bottom: 1px solid $color-line;
+        text-align: left;
+        padding: 20px 15px;
+    }
+
+    th {
+        color: $color-title;
+    }
+}
