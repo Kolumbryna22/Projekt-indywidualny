@@ -17,12 +17,8 @@
 
         button {
             float: right;
-            margin-top: 20px;
-            margin-right: 20px;
-            cursor: pointer;
-            border: none;
-            width: 20px;
-            height: 20px;
+            margin-top: 7px;
+            margin-right: 10px;
         }
     }
 
@@ -40,6 +36,21 @@
 
         p {
             padding-left: 13px;
+        }
+    }
+
+    .navigation-manager {
+        position: relative;
+
+        a {
+            position: absolute;
+            top: 77px;
+            left: 50px;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
         }
     }
 

@@ -1,0 +1,15 @@
+.arrow-up {
+    @include arrow($color-title, -135deg);
+}
+
+.arrow-right {
+    @include arrow($color-title, -45deg);
+}
+
+.arrow-down {
+    @include arrow($color-title, 45deg);
+}
+
+.arrow-left {
+    @include arrow($color-title, 135deg);
+}

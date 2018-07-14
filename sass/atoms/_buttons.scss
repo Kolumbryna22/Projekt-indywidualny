@@ -1,20 +1,15 @@
-.button-reload-data {
-    @include button-style-advanced($color-button, $color-section-background, 40px, 40px, 3px);
-}
-
 .button-normal {
     @include button-style($color-button, $color-section-background, 3px);
 }
 
-.button-arrow-down {
-
+.button-hamburger {
+    @include button-style($color-nav-background, $color-nav-text, 3px);
+    transform: rotate(90deg);
+    font-size: 30px;
 }
 
-.button-exit {
-
-}
-
-.button-message {
-
-    
+.button-minimal {
+    background-color: $color-section-background;
+    border: none;
+    cursor: pointer;
 }
