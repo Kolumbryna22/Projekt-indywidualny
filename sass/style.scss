@@ -11,13 +11,14 @@
 @import 'atoms/reload';
 @import 'atoms/arrows';
 @import 'atoms/state';
+@import 'atoms/inputs';
 @import 'atoms/pagination-element';
 @import 'molecules/input-item';
-@import 'components/section';
+@import 'molecules/section';
+@import 'molecules/pagination';
 @import 'components/informations';
 @import 'components/header';
 @import 'components/navigation';
 @import 'components/data-form';
 @import 'components/statistic';
-@import 'components/pagination';
-@import 'components/input-container';
+@import 'components/containers';

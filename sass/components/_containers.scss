@@ -1,0 +1,22 @@
+.postback-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    [class*="col-"] {
+        padding: 0 10px;
+    }
+}
+
+.input-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.section-container {
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: $color-section-background;
+}
