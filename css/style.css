@@ -672,6 +672,17 @@ a {
   padding: 3px;
   transform: rotate(135deg); }
 
+.active {
+  background-color: #f1f3f3;
+  color: #818181; }
+
+.pagination-element {
+  float: left;
+  padding: 8px 16px; }
+
+.pagination-element:hover:not(.active) {
+  background-color: #a6a6a6; }
+
 section {
   padding: 15px 15px 20px 203px; }
 
@@ -783,5 +794,11 @@ section {
     padding: 20px 15px; }
   .table-statistic th {
     color: #a6a6a6; }
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */

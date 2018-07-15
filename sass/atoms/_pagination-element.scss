@@ -1,0 +1,8 @@
+.pagination-element {
+    float: left;
+    padding: 8px 16px;
+}
+
+.pagination-element:hover:not(.active) {
+    background-color: $color-title;
+}
