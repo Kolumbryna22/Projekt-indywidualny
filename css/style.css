@@ -683,6 +683,19 @@ a {
 .pagination-element:hover:not(.active) {
   background-color: #a6a6a6; }
 
+.input-item {
+  padding: 10px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between; }
+  .input-item p {
+    color: #a6a6a6; }
+  .input-item input {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px; }
+
 section {
   padding: 15px 15px 20px 203px; }
 
@@ -800,5 +813,11 @@ section {
   display: flex;
   justify-content: center;
   padding-top: 20px; }
+
+.input-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 40px; }
 
 /*# sourceMappingURL=style.css.map */
