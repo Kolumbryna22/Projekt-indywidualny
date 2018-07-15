@@ -1,8 +1,6 @@
-.table-statistic {
+%table-statistic {
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
-    text-align: center;
 
     th,
     td {
@@ -14,4 +12,14 @@
     th {
         color: $color-title;
     }
+}
+
+.table-statistic-large {
+    @extend %table-statistic;
+    max-width: 1200px;
+}
+
+.table-statistic-small {
+    @extend %table-statistic;
+    max-width: 750px;
 }

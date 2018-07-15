@@ -795,18 +795,23 @@ section {
       height: 31px;
       margin-top: 7px; }
 
-.table-statistic {
+.table-statistic-large, .table-statistic-small {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center; }
-  .table-statistic th,
-  .table-statistic td {
+  margin: 0 auto; }
+  .table-statistic-large th, .table-statistic-small th,
+  .table-statistic-large td,
+  .table-statistic-small td {
     border-bottom: 1px solid #e3e3e3;
     text-align: left;
     padding: 20px 15px; }
-  .table-statistic th {
+  .table-statistic-large th, .table-statistic-small th {
     color: #a6a6a6; }
+
+.table-statistic-large {
+  max-width: 1200px; }
+
+.table-statistic-small {
+  max-width: 750px; }
 
 .pagination {
   width: 100%;
