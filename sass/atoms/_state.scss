@@ -2,3 +2,15 @@
     background-color: $color-active;
     color: $color-nav-text;
 }
+
+.active-link {
+    background-color: $color-link-active;
+    color: white; // nie działa
+}
+
+.active-line {
+    margin-right: -4px;
+    width: 4px;
+    height: 100%;
+    background-color: $color-button;
+}
