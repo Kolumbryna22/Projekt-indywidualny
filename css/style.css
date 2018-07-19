@@ -312,7 +312,7 @@ template {
 .row:after {
   clear: both; }
 
-@media (min-width: 970px) {
+@media (min-width: 769px) {
   .col-l-1 {
     width: 8.33%; }
 
@@ -384,42 +384,6 @@ template {
 
   .col-offset-11 {
     margin-left: 91.66%; } }
-@media (max-width: 969px) {
-  .col-m-1 {
-    width: 8.33%; }
-
-  .col-m-2 {
-    width: 16.66%; }
-
-  .col-m-3 {
-    width: 25%; }
-
-  .col-m-4 {
-    width: 33.33%; }
-
-  .col-m-5 {
-    width: 41.66%; }
-
-  .col-m-6 {
-    width: 50%; }
-
-  .col-m-7 {
-    width: 58.33%; }
-
-  .col-m-8 {
-    width: 66.66%; }
-
-  .col-m-9 {
-    width: 75%; }
-
-  .col-m-10 {
-    width: 83.33%; }
-
-  .col-m-11 {
-    width: 91.66%; }
-
-  .col-m-12 {
-    width: 100%; } }
 @media (max-width: 768px) {
   .col-s-1 {
     width: 8.33%; }
@@ -595,6 +559,12 @@ section {
 .mg-l-large {
   margin-left: 75px; }
 
+@media (max-width: 768px) {
+  .center-text-s {
+    text-align: center; }
+
+  .pg-b-small-s {
+    padding-bottom: 20px; } }
 .info-title {
   color: #a6a6a6;
   float: left;
@@ -714,7 +684,7 @@ section {
   background-color: #a6a6a6; }
 
 .input-item {
-  padding: 10px 0;
+  padding: 10px 20px;
   display: flex;
   width: 100%;
   justify-content: space-between; }
@@ -726,6 +696,13 @@ section {
     border: 1px solid #e3e3e3;
     border-radius: 3px; }
 
+@media (max-width: 710px) {
+  .input-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px; }
+    .input-item input {
+      max-width: 100%; } }
 .section-input {
   text-align: center;
   padding: 40px 0; }
@@ -738,8 +715,8 @@ section {
 
 .info-container {
   width: 100%;
-  max-width: 600px;
-  padding-bottom: 20px;
+  max-width: 640px;
+  padding: 0 20px 20px;
   margin: 0 auto;
   color: #a6a6a6; }
   .info-container p {
@@ -838,15 +815,22 @@ section {
   .table-statistic-small td {
     border-bottom: 1px solid #e3e3e3;
     text-align: left;
-    padding: 20px 15px; }
+    padding: 20px 20px; }
   .table-statistic-large th, .table-statistic-small th {
     color: #a6a6a6; }
 
+.scroll-wrapper {
+  width: 100%;
+  display: block;
+  overflow-x: auto; }
+
 .table-statistic-large {
-  max-width: 1200px; }
+  max-width: 1200px;
+  width: 100%; }
 
 .table-statistic-small {
-  max-width: 750px; }
+  max-width: 750px;
+  width: 100%; }
 
 .postback-container {
   width: 100%;
@@ -857,7 +841,7 @@ section {
 
 .input-container {
   width: 100%;
-  max-width: 500px;
+  max-width: 540px;
   margin: 0 auto;
   padding-bottom: 40px; }
 

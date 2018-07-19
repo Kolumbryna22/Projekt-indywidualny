@@ -27,3 +27,13 @@
 .mg-r-large {margin-right: $large;}
 .mg-b-large {margin-bottom: $large;}
 .mg-l-large {margin-left: $large;}
+
+@media (max-width: 768px) {
+    .center-text-s {
+        text-align: center;
+    }
+
+    .pg-b-small-s {
+        padding-bottom: $small;
+    }
+}

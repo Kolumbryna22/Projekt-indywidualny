@@ -1,5 +1,5 @@
 .input-item {
-    padding: 10px 0;
+    padding: 10px 20px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -13,5 +13,17 @@
         padding: 15px;
         border: 1px solid $color-line;
         border-radius: 3px;
+    }
+}
+
+@media (max-width: 710px) {
+    .input-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+
+        input {
+            max-width: 100%;
+        }
     }
 }
