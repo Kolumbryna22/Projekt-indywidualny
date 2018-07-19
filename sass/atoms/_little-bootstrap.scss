@@ -28,6 +28,10 @@
 .mg-b-large {margin-bottom: $large;}
 .mg-l-large {margin-left: $large;}
 
+.bold {
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
     .center-text-s {
         text-align: center;

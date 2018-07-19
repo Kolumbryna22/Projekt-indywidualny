@@ -559,6 +559,9 @@ section {
 .mg-l-large {
   margin-left: 75px; }
 
+.bold {
+  font-weight: bold; }
+
 @media (max-width: 768px) {
   .center-text-s {
     text-align: center; }
@@ -569,6 +572,7 @@ section {
   color: #a6a6a6;
   float: left;
   width: 60%;
+  font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
@@ -689,7 +693,8 @@ section {
   width: 100%;
   justify-content: space-between; }
   .input-item p {
-    color: #a6a6a6; }
+    color: #a6a6a6;
+    font-weight: bold; }
   .input-item input {
     width: 300px;
     padding: 15px;
