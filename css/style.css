@@ -725,7 +725,7 @@ section {
 
 @media (max-width: 687px) {
   .section-first {
-    padding-top: 120px; } }
+    padding-top: 60px; } }
 .pagination {
   width: 100%;
   display: flex;
@@ -789,6 +789,7 @@ section {
 
 @media (max-width: 687px) {
   .header {
+    display: none;
     padding-top: 60px;
     flex-direction: column;
     align-items: flex-end;

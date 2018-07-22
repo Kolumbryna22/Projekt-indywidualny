@@ -4,10 +4,10 @@
     var button = document.getElementById('hamburger');
     var nav = document.getElementById('nav');
     var header = document.getElementById('header');
-    var section = document.getElementsByTagName('section');
-    var change = false;
+    var change = window.innerWidth > 688 ? false : true;
 
     var changeSection = function(x) {
+        var section = document.getElementsByTagName('section');
         var i = 0;
         while(section[i]) {
             section[i].style.paddingLeft = x ? "203px" : "15px";
