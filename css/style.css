@@ -610,7 +610,8 @@ section {
   padding: .25em;
   width: 2em;
   position: relative;
-  transform: rotate(45deg); }
+  transform: rotate(45deg) scale(0.75, 0.75);
+  margin-bottom: 1px; }
   .reload:before, .reload:after {
     content: '';
     display: block; }
@@ -778,6 +779,8 @@ section {
   .header p {
     font-size: 28px;
     color: #a6a6a6; }
+  .header a {
+    color: #56819f; }
   .header .header-item {
     margin: 0 10px;
     display: flex;
@@ -826,7 +829,8 @@ section {
     .navigation .navigation-manager a {
       position: absolute;
       top: 70px;
-      left: 45px; }
+      left: 45px;
+      color: #56819f; }
     .navigation .navigation-manager img {
       margin-left: 10px;
       width: 40px;
@@ -854,6 +858,10 @@ section {
     .data-container .data-form .line-vertical {
       height: 31px;
       margin-top: 7px; }
+  .data-container button:hover .reload:before {
+    border-color: transparent #f58220 #f58220 #f58220; }
+  .data-container button:hover .reload:after {
+    border-color: transparent transparent transparent #f58220; }
 
 .table-statistic-large, .table-statistic-small {
   width: 100%;

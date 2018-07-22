@@ -3,7 +3,8 @@
     padding: .25em;
     width: 2em;
     position: relative;
-    transform: rotate(45deg);
+    transform: rotate(45deg) scale(0.75, 0.75);
+    margin-bottom: 1px;
 
     &:before, 
     &:after {

@@ -21,4 +21,18 @@
             margin-top: 7px;
         }
     }
+
+    button {
+        &:hover {
+            .reload {
+                &:before {
+                    border-color: transparent $color-button $color-button $color-button;
+                }
+
+                &:after {
+                    border-color: transparent transparent transparent $color-button;
+                }
+            }
+        }
+    }
 }
