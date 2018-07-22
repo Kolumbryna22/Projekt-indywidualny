@@ -435,6 +435,9 @@ a {
 section {
   padding: 15px 15px 20px 203px; }
 
+@media (max-width: 687px) {
+  section {
+    padding-left: 15px; } }
 .line-vertical {
   background-color: #e3e3e3;
   width: 1px;
@@ -712,12 +715,36 @@ section {
   text-align: center;
   padding: 40px 0; }
 
+.section-first {
+  padding-top: 75px; }
+
+@media (max-width: 687px) {
+  .section-first {
+    padding-top: 120px; } }
 .pagination {
   width: 100%;
   display: flex;
   justify-content: center;
   padding-top: 20px; }
 
+.logo {
+  position: fixed;
+  width: 188px;
+  height: 60px;
+  background-color: #191919;
+  z-index: 1; }
+  .logo img {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px; }
+  .logo button {
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px; }
+
+@media (max-width: 687px) {
+  .logo {
+    margin-top: 60px; } }
 .info-container {
   width: 100%;
   max-width: 640px;
@@ -753,20 +780,9 @@ section {
   position: fixed;
   width: 188px;
   height: 100%;
+  padding-top: 70px;
   background-color: #191919;
   color: #818181; }
-  .navigation .navigation-logo {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 10px; }
-    .navigation .navigation-logo img {
-      float: left;
-      padding-top: 20px;
-      padding-left: 20px; }
-    .navigation .navigation-logo button {
-      float: right;
-      margin-top: 7px;
-      margin-right: 10px; }
   .navigation .navigation-item {
     display: flex;
     justify-content: flex-start;
@@ -796,6 +812,10 @@ section {
   .navigation .line-horizontal {
     margin: 20px 0; }
 
+@media (max-width: 687px) {
+  .navigation {
+    display: none;
+    margin-top: 120px; } }
 .data-container {
   width: 100%;
   display: flex;
@@ -856,6 +876,6 @@ section {
   width: 100%;
   padding-bottom: 40px;
   background-color: white;
-  box-shadow: -1px 1px 4px 2px rgba(0, 0, 0, 0.3); }
+  box-shadow: -1px 1px 4px 2px rgba(0, 0, 0, 0.2); }
 
 /*# sourceMappingURL=style.css.map */

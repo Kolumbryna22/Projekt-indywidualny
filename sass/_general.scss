@@ -16,3 +16,9 @@ a {
 section {
     padding: 15px 15px 20px 203px;
 }
+
+@media (max-width: 687px) {
+    section {
+        padding-left: 15px;
+    }
+}
