@@ -32,9 +32,17 @@
     font-weight: bold;
 }
 
+.header-margin {
+    margin-right: $header-margin;
+}
+
 @media (max-width: 768px) {
     .center-text-s {
         text-align: center;
+
+        p {
+            width: 100%;
+        }
     }
 
     .pg-b-small-s {

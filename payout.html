@@ -8,18 +8,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <div class="line-vertical"></div>
-        <img src="images/wallet.svg" alt="wallet" class="header-item">
-        <p class="header-item">$1,500.00</p>
-        <button class="button-minimal header-item"><div class="arrow-down"></div></button>
+        <div class="header-item">
+            <img src="images/wallet.svg" alt="wallet" class="header-margin">
+            <p class="header-margin">$1,500.00</p>
+            <button class="button-minimal"><div class="arrow-down"></div></button>
+        </div>
         <div class="line-vertical"></div>
-        <button class="button-minimal header-item"><img src="images/notification.svg" alt="Message"></button>
+        <div class="header-item">
+            <button class="button-minimal"><img src="images/notification.svg" alt="Message"></button>
+        </div>
         <div class="line-vertical"></div>
-        <img src="images/profile.svg" alt="profile" class="header-item">
-        <a href="#" class="header-item link-style">Leonardo Dicaprio</a>
+        <div class="header-item">
+            <img src="images/profile.svg" alt="profile" class="header-margin">
+            <a href="#" class="link-style">Leonardo Dicaprio</a>
+        </div>
         <div class="line-vertical"></div>
-        <button class="button-minimal header-item"><img src="images/exit.svg" alt="Exit"></button>
+        <div class="header-item">
+            <button class="button-minimal"><img src="images/exit.svg" alt="Exit"></button>
+        </div>
     </header>
     <div class="logo">
         <img src="images/logo.svg" alt="Logo">
@@ -64,7 +72,7 @@
             </div>
         </div>
     </nav>
-    <section class="pg-t-large">
+    <section class="section-first">
         <div class="section-container">
             <p class="section-title">Payout history</p>
             <div class="line-horizontal"></div>
