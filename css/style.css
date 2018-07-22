@@ -729,6 +729,8 @@ section {
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0; }
+  .info-container a {
+    color: #56819f; }
   .info-container .line-horizontal {
     margin-top: 20px;
     margin-bottom: 20px; }
@@ -853,6 +855,7 @@ section {
 .section-container {
   width: 100%;
   padding-bottom: 40px;
-  background-color: white; }
+  background-color: white;
+  box-shadow: -1px 1px 4px 2px rgba(0, 0, 0, 0.3); }
 
 /*# sourceMappingURL=style.css.map */

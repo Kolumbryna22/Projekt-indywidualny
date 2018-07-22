@@ -9,6 +9,10 @@
         @include clear-mp;
     }
 
+    a {
+        color: $color-link;
+    }
+
     .line-horizontal {
         margin-top: 20px;
         margin-bottom: 20px;
