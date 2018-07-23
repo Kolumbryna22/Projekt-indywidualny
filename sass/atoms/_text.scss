@@ -1,8 +1,19 @@
-.info-title {
+.title {
     color: $color-title;
-    float: left;
     font-weight: bold;
     @include clear-mp;
+}
+
+.info-title {
+    @extend .title;
+    float: left;
+}
+
+.title-select {
+    @extend .title;
+
+    margin-bottom: 10px;
+    margin-left: 18px;
 }
 
 .info-text {
