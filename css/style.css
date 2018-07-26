@@ -944,6 +944,7 @@ section {
   .input-container {
     width: 370px; } }
 .modal {
+  display: none;
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -969,11 +970,5 @@ section {
       margin: 0 18px 25px; }
     .modal .modal-container .line-horizontal {
       margin-bottom: 25px; }
-
-.disable1 {
-  display: none; }
-
-.disable2 {
-  display: none; }
 
 /*# sourceMappingURL=style.css.map */

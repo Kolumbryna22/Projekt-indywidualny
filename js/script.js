@@ -4,6 +4,8 @@
     var button = document.getElementById('hamburger');
     var nav = document.getElementById('nav');
     var header = document.getElementById('header');
+    var modalLinks = document.getElementById('links');
+    var modalBanners = document.getElementById('banners');
     var change = window.innerWidth > 688 ? false : true;
 
     var changeSection = function(x) {
