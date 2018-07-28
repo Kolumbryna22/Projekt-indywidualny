@@ -25,8 +25,13 @@
             color: $color-nav-text;
         }
 
-        p {
-            padding-left: 15px;
+        &:hover {
+            background-color: $color-link-active;
+            color: white;
+
+            .button-nav {
+                background-color: $color-link-active;
+            }
         }
     }
 

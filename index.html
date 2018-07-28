@@ -45,11 +45,11 @@
         </div>
         <div class="navigation-item">
             <img src="images/links.svg" alt="Link">
-            <p>Links</p>
+            <button class="button-nav" id="linksButton">Links</button>
         </div>
         <div class="navigation-item">
             <img src="images/banners.svg" alt="Banner">
-            <p>Banners</p>
+            <button class="button-nav" id="bannersButton">Banners</button>
         </div>
         <div class="navigation-item">
             <img src="images/data.svg" alt="Data">
@@ -72,8 +72,9 @@
             </div>
         </div>
     </nav>
-    <div id="links" class="modal disable1">
+    <div id="linksButton" class="modal disable-links">
         <div class="modal-container">
+            <button class="button-minimal" id="closeModal">X</button>
             <p class="section-title">Add url</p>
             <div class="line-horizontal"></div>
             <div class="row">
@@ -257,8 +258,9 @@
             </div>
         </div>
     </div>
-    <div id="banners" class="modal disable2">
+    <div id="bannersButton" class="modal disable-banners">
         <div class="modal-container">
+            <button class="button-minimal" id="closeModal">X</button>
             <p class="section-title">Add url</p>
             <div class="line-horizontal"></div>
             <div class="row">

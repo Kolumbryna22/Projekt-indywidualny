@@ -6,8 +6,14 @@
     var header = document.getElementById('header');
     var modalLinks = document.getElementById('links');
     var modalBanners = document.getElementById('banners');
+    var linksButton = document.getElementById('linksButton');
+    var bannersButton = document.getElementById('bannersButton');
+    var linksModal = document.getElementById('linksModal');
+    var bannersModal = document.getElementById('bannersModal');
+    var closeModal = document.getElementById('closeModal');
     var change = window.innerWidth > 688 ? false : true;
 
+    //functions for responsive web
     var changeSection = function(x) {
         var section = document.getElementsByTagName('section');
         var i = 0;
@@ -42,5 +48,22 @@
         change = !change;
     };
 
+    //function for modals
+    var addVisibleLinks = function() {
+        linksModal.style.display = "block";
+    };
+    
+    var addVisibleBanners = function() {
+        bannersModal.style.display = "block";
+    };
+
+    var disableVisible = function() {
+        linksModal.style.display = "none";
+        bannersModal.style.display = "none";
+    };
+
     button.addEventListener('click', changeVisible);
+    linksButton.addEventListener('click', addVisibleLinks);
+    bannersButton.addEventListener('click', addVisibleBanners);
+    closeModal.addEventListener('click', disableVisible);
 })();

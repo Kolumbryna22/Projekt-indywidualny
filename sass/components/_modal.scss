@@ -9,6 +9,7 @@
 
 .modal-container {
     background-color: $color-section-background;
+    position: relative;
     margin: 0 auto;
     width: 80%;
     height: 80%;
@@ -32,12 +33,19 @@
     .title {
         padding-bottom: 15px;
     }
+
+    .button-minimal {
+        position: absolute;
+        color: $color-title;
+        right: 20px;
+        top: 30px;
+    }
 }
 
-.disable1 {
+.disable-links {
     display: none;
 }
 
-.disable2 {
-    //display: none;
+.disable-banners {
+    display: none;
 }

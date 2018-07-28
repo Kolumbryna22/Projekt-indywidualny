@@ -17,3 +17,10 @@
     border: none;
     cursor: pointer;
 }
+
+.button-nav {
+    @extend .button-minimal;
+    margin-left: 10px;
+    background-color: $color-nav-background;
+    color: $color-nav-text;
+}

@@ -44,11 +44,11 @@
         </div>
         <div class="navigation-item">
             <img src="images/links.svg" alt="Link">
-            <p>Links</p>
+            <button class="button-nav" id="linksButton">Links</button>
         </div>
         <div class="navigation-item">
             <img src="images/banners.svg" alt="Banner">
-            <p>Banners</p>
+            <button class="button-nav" id="bannersButton">Banners</button>
         </div>
         <div class="navigation-item active-link">
             <div class="active-line"></div>
@@ -72,6 +72,307 @@
             </div>
         </div>
     </nav>
+    <div id="linksButton" class="modal disable-links">
+        <div class="modal-container">
+            <button class="button-minimal" id="closeModal">X</button>
+            <p class="section-title">Add url</p>
+            <div class="line-horizontal"></div>
+            <div class="row">
+                <div class="col-l-5">
+                    <p class="title">Scheme name</p>
+                    <input class="input-filter" type="text" placeholder="Name">
+                </div>
+                <div class="col-l-5 mg-t-input">
+                    <input class="input-filter" type="text" placeholder="Select compain">
+                </div>
+                <div class="col-l-2">
+                    <p class="title">Language</p>
+                    <input class="input-filter" type="text" placeholder="EN">
+                </div>
+            </div>
+            <div class="line-horizontal"></div>
+            <p class="title-select">Select website</p>
+            <div class="row">
+                <div class="col-l-4 col-s-12">
+                    <div class="select-item">
+                        <input type="checkbox" id="LandingPageMoney">
+                        <label for="LandingPageMoney">Landing page Money</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="LPYourChoise">
+                        <label for="LPYourChoise">LP Your choise</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="LPWallet">
+                        <label for="LPWallet">LP Wallet</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="E-Shop01">
+                        <label for="E-Shop01">E-Shop 01</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="ToyStore">
+                        <label for="ToyStore">Toy Store</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="BookStore">
+                        <label for="BookStore">Boook Store</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="Charity">
+                        <label for="Charity">Charity</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item" id="LPIconsStore">
+                        <input type="checkbox">
+                        <label for="LPIconsStore">LP Icons Store</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="TemplatesStore">
+                        <label for="TemplatesStore">Templates Store</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="RandomText">
+                        <label for="RandomText">Random text</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                </div>
+                <div class="col-l-4 col-s-12">
+                    <div class="select-item">
+                        <input type="checkbox" id="MobileApp">
+                        <label for="MobileApp">Mobile app</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="LPSenatorFreeSignals">
+                        <label for="LPSenatorFreeSignals">LP Senator free signals</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="LPDeYourChoise">
+                        <label for="LPDeYourChoise">LP DE Your choise</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="InvestWisely">
+                        <label for="InvestWisely">Invest wisely</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="ToyStoreLPSignUpPage">
+                        <label for="ToyStoreLPSignUpPage">Toy Store LP Sign up page</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="SenatorAccountTypes">
+                        <label for="SenatorAccountTypes">Senator Account types</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="SenatorMobileApp">
+                        <label for="SenatorMobileApp">Senator Mobile app</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="SenatorStore">
+                        <label for="SenatorStore">Senator store</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="SenatorAprilPromo">
+                        <label for="SenatorAprilPromo">Senator April Promo</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="LanguageLearningLP">
+                        <label for="LanguageLearningLP">Language Learning LP</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                </div>
+                <div class="col-l-4 col-s-12">
+                    <div class="select-item">
+                        <input type="checkbox" id="YourSecondSite">
+                        <label for="YourSecondSite">Your second site</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="YourSecondLP">
+                        <label for="YourSecondLP">Your second LP</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="LandingPageMoney2">
+                        <label for="LandingPageMoney2">Landing page Money2</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="LPYourChoise2">
+                        <label for="LPYourChoise2">LP Your choise2</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="LPWallet2">
+                        <label for="LPWallet2">LP Wallet2</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="E-Shop02">
+                        <label for="E-Shop02">E-Shop 02</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="ToyStore2">
+                        <label for="ToyStore2">Toy Store2</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="BankStore">
+                        <label for="BankStore2">Book Store</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="MobileApp2">
+                        <label for="MobileApp2">Mobile app2</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                    <div class="select-item">
+                        <input type="checkbox" id="LPSenatorFreeSignals2">
+                            <label for="LPSenatorFreeSignals2">LP Senator free signals2</label>
+                        <button class="button-send"><img src="images/button-send.png" alt="Send"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="line-horizontal"></div>
+            <div class="generate-link">
+                <input type="text" placeholder="Generated link">
+                <button class="button-copy">Copy link</button>
+                <button class="button-normal">Save</button>
+            </div>
+        </div>
+    </div>
+    <div id="bannersModal" class="modal disable-banners">
+        <div class="modal-container">
+            <button class="button-minimal" id="closeModal">X</button>
+            <p class="section-title">Add url</p>
+            <div class="line-horizontal"></div>
+            <div class="row">
+                <div class="col-l-5">
+                    <p class="title">Scheme name</p>
+                    <input class="input-filter" type="text" placeholder="Name">
+                </div>
+                <div class="col-l-5">
+                    <input class="input-filter mg-t-input" type="text" placeholder="Select compain">
+                </div>
+                <div class="col-l-2">
+                    <p class="title">Language</p>
+                    <input class="input-filter" type="text" placeholder="EN">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-l-4">
+                    <p class="title">Weight-Height</p>
+                    <input class="input-filter" type="text" placeholder="Select">
+                </div>
+                <div class="col-l-4">
+                    <p class="title">Design</p>
+                    <input class="input-filter" type="text" placeholder="Select compain">
+                </div>
+                <div class="col-l-4">
+                    <p class="title">File type</p>
+                    <input class="input-filter" type="text" placeholder="EN">
+                </div>
+            </div>
+            <div class="banners">
+                <div class="line-horizontal"></div>
+                <div class="row">
+                    <div class="col-l-6 line-right">
+                        <p class="title">Select banners</p>
+                        <div class="select-item">
+                            <input type="checkbox" id="BannerMain">
+                            <label for="BannerMain">Banner main</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="SignUpBanner">
+                            <label for="SignUpBanner">Sign up banner</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="LeftBanner">
+                            <label for="LeftBanner">Left banner</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="RightBanner">
+                            <label for="RightBanner">Right banner</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="BottomBanner">
+                            <label for="BottomBanner">Bottom banner</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="LongBanner">
+                            <label for="LongBanner">Long banner</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="PersonalCabinetBanner">
+                            <label for="PersonalCabinetBanner">Personal cabinet banner</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="PopupBanner">
+                            <label for="PopupBanner">Popup banner</label>
+                        </div>
+                    </div>
+                    <div class="col-l-6">
+                        <p class="title">Select websites</p>
+                        <div class="select-item">
+                            <input type="checkbox" id="LandingPageMoney">
+                            <label for="LandingPageMoney">Landing page Money</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="LPYourChoise">
+                            <label for="LPYourChoise">LP Your choise</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="LPWallet">
+                            <label for="LPWallet">LP Wallet</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="E-Shop01">
+                            <label for="E-Shop01">E-Shop 01</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="ToyStore">
+                            <label for="ToyStore">Toy Store</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="BookStore">
+                            <label for="BookStore">Book Store</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="Charity">
+                            <label for="Charity">Charity</label>
+                        </div>
+                        <div class="select-item">
+                            <input type="checkbox" id="LPIconsStore">
+                            <label for="LPIconsStore">LP Icons Store</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-horizontal"></div>
+            </div>
+            <div class="generate-link mg-t-small">
+                <input type="text" placeholder="Generated link">
+                <button class="button-copy">Copy link</button>
+                <button class="button-normal">Save</button>
+            </div>
+        </div>
+    </div>
     <section class="section-first">
         <div class="section-container">
             <p class="section-title">Personal data</p>

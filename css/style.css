@@ -544,7 +544,6 @@ section {
   color: white;
   border: 2px solid #f58220;
   border-radius: 3px;
-  text-transform: uppercase;
   cursor: pointer;
   transition-duration: 0.7s;
   padding: 8px;
@@ -560,7 +559,6 @@ section {
   color: #818181;
   border: 2px solid #191919;
   border-radius: 3px;
-  text-transform: uppercase;
   cursor: pointer;
   transition-duration: 0.7s;
   padding: 8px;
@@ -578,7 +576,6 @@ section {
   color: white;
   border: 2px solid #e3e3e3;
   border-radius: 3px;
-  text-transform: uppercase;
   cursor: pointer;
   transition-duration: 0.7s;
   padding: 8px;
@@ -589,10 +586,16 @@ section {
   color: #e3e3e3;
 }
 
-.button-minimal {
+.button-minimal, .button-nav {
   background-color: white;
   border: none;
   cursor: pointer;
+}
+
+.button-nav {
+  margin-left: 10px;
+  background-color: #191919;
+  color: #818181;
 }
 
 .pg-t-small {
@@ -1065,8 +1068,12 @@ section {
   padding-left: 15px;
   color: #818181;
 }
-.navigation .navigation-item p {
-  padding-left: 15px;
+.navigation .navigation-item:hover {
+  background-color: #282828;
+  color: white;
+}
+.navigation .navigation-item:hover .button-nav {
+  background-color: #282828;
 }
 .navigation .navigation-manager {
   position: relative;
@@ -1206,6 +1213,7 @@ section {
 
 .modal-container {
   background-color: white;
+  position: relative;
   margin: 0 auto;
   width: 80%;
   height: 80%;
@@ -1226,8 +1234,18 @@ section {
 .modal-container .title, .modal-container .info-title, .modal-container .title-select {
   padding-bottom: 15px;
 }
+.modal-container .button-minimal, .modal-container .button-nav {
+  position: absolute;
+  color: #a6a6a6;
+  right: 20px;
+  top: 30px;
+}
 
-.disable1 {
+.disable-links {
+  display: none;
+}
+
+.disable-banners {
   display: none;
 }
 
