@@ -1098,6 +1098,22 @@ section {
     display: none;
   }
 }
+.navigation-header {
+  display: none;
+  padding-left: 20px;
+}
+.navigation-header .button-minimal, .navigation-header .button-nav {
+  background-color: #191919;
+  padding: 0;
+}
+.navigation-header .navigation-header-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 45px;
+  width: 100%;
+}
+
 .data-container {
   width: 100%;
   display: flex;

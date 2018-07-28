@@ -3,7 +3,7 @@
 
     var button = document.getElementById('hamburger');
     var nav = document.getElementById('nav');
-    var header = document.getElementById('header');
+    var navigationHeader = document.getElementById('navigationHeader');
     var modalLinks = document.getElementById('links');
     var modalBanners = document.getElementById('banners');
     var linksButton = document.getElementById('linksButton');
@@ -26,12 +26,10 @@
     window.addEventListener('resize', function(){
         if(window.innerWidth > 688) {
             nav.style.display = "block";
-            header.style.display = "flex";
             change = false;
         }
         else {
             nav.style.display = "none";
-            header.style.display = "none";
             change = true;
         }
         changeSection(!change);
@@ -39,9 +37,7 @@
 
     var changeVisible = function() {
         change ? (nav.style.display = "block") : (nav.style.display = "none");
-        if(window.innerWidth < 688) {
-            change ? (header.style.display = "flex") : (header.style.display = "none");
-        }
+        change ? (navigationHeader.style.display = "block") : (navigationHeader.style.display = "none");
         if(window.innerWidth > 688) {
             changeSection(change);
         }

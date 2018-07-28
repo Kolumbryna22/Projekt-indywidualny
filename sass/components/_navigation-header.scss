@@ -1,0 +1,17 @@
+.navigation-header {
+    display: none;
+    padding-left: 20px;
+
+    .button-minimal {
+        background-color: $color-nav-background;
+        padding: 0;
+    }
+
+    .navigation-header-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;    
+        height: 45px;
+        width: 100%;
+    }
+}
