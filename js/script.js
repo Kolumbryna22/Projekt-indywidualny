@@ -10,7 +10,8 @@
     var bannersButton = document.getElementById('bannersButton');
     var linksModal = document.getElementById('linksModal');
     var bannersModal = document.getElementById('bannersModal');
-    var closeModal = document.getElementById('closeModal');
+    var closeLinks = document.getElementById('closeLinks');
+    var closeBanners = document.getElementById('closeBanners');
     var change = window.innerWidth > 688 ? false : true;
 
     //functions for responsive web
@@ -55,8 +56,11 @@
         bannersModal.style.display = "block";
     };
 
-    var disableVisible = function() {
+    var disableVisibleLinks = function() {
         linksModal.style.display = "none";
+    };
+
+    var disableVisibleBanners = function() {
         bannersModal.style.display = "none";
     };
 
@@ -64,5 +68,6 @@
     button.addEventListener('click', changeVisible);
     linksButton.addEventListener('click', addVisibleLinks);
     bannersButton.addEventListener('click', addVisibleBanners);
-    closeModal.addEventListener('click', disableVisible);
+    closeLinks.addEventListener('click', disableVisibleLinks);
+    closeBanners.addEventListener('click', disableVisibleBanners);
 })();
