@@ -37,7 +37,9 @@
 
     var changeVisible = function() {
         change ? (nav.style.display = "block") : (nav.style.display = "none");
-        change ? (navigationHeader.style.display = "block") : (navigationHeader.style.display = "none");
+        if(window.innerWidth < 688) {
+            change ? (navigationHeader.style.display = "block") : (navigationHeader.style.display = "none");
+        }
         if(window.innerWidth > 688) {
             changeSection(change);
         }
