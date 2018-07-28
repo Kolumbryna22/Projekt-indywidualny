@@ -1,0 +1,17 @@
+.banners {
+    .line-horizontal {
+        margin-bottom: 0;
+    }
+
+    [class*=col] {
+        padding: 20px;
+    }
+
+    .line-right {
+        border-right: 1px solid $color-line;
+    }
+
+    .row {
+        margin-bottom: 0;
+    }
+}

@@ -8,6 +8,10 @@
     font-size: 30px;
 }
 
+.button-copy {
+    @include button-style($color-line, $color-section-background, 3px);
+}
+
 .button-minimal {
     background-color: $color-section-background;
     border: none;
