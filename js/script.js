@@ -62,6 +62,7 @@
         bannersModal.style.display = "none";
     };
 
+    //listeners for action
     button.addEventListener('click', changeVisible);
     linksButton.addEventListener('click', addVisibleLinks);
     bannersButton.addEventListener('click', addVisibleBanners);
