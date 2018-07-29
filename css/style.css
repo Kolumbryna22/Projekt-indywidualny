@@ -917,7 +917,7 @@ section {
   width: 188px;
   height: 60px;
   background-color: #191919;
-  z-index: 1;
+  z-index: 10;
 }
 .logo img {
   float: left;
@@ -979,6 +979,51 @@ section {
   margin: 0 12px;
 }
 
+.navigation-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 45px;
+  width: 100%;
+}
+.navigation-item img {
+  margin-left: 20px;
+  width: 16px;
+  height: 16px;
+}
+.navigation-item:hover {
+  background-color: #282828;
+}
+.navigation-item:hover a {
+  color: #f2f2f2;
+}
+.navigation-item:hover .button-nav {
+  background-color: #282828;
+  color: #f2f2f2;
+}
+
+.navigation-manager {
+  position: relative;
+}
+.navigation-manager a {
+  position: absolute;
+  top: 65px;
+  left: 50px;
+  color: #56819f;
+}
+.navigation-manager img {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.header-item {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .info-container {
   width: 100%;
   max-width: 640px;
@@ -1017,30 +1062,10 @@ section {
 .header a {
   color: #56819f;
 }
-.header .header-item {
-  margin: 0 10px;
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
 
 @media (max-width: 687px) {
   .header {
     display: none;
-    padding-top: 60px;
-    flex-direction: column;
-    align-items: flex-end;
-    height: 260px;
-  }
-  .header .line-vertical {
-    display: none;
-  }
-  .header .header-item {
-    padding: 10px;
-    width: 100%;
-    height: 61px;
-    display: flex;
-    justify-content: flex-end;
   }
 }
 .navigation {
@@ -1050,44 +1075,12 @@ section {
   padding-top: 70px;
   background-color: #191919;
   color: #818181;
+  z-index: 2;
 }
-.navigation .navigation-item {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 45px;
-  width: 100%;
-}
-.navigation .navigation-item img {
-  margin-left: 20px;
-  width: 16px;
-  height: 16px;
-}
-.navigation .navigation-item a {
+.navigation a {
   padding-top: 7px;
   padding-left: 15px;
   color: #818181;
-}
-.navigation .navigation-item:hover {
-  background-color: #282828;
-  color: white;
-}
-.navigation .navigation-item:hover .button-nav {
-  background-color: #282828;
-}
-.navigation .navigation-manager {
-  position: relative;
-}
-.navigation .navigation-manager a {
-  position: absolute;
-  top: 70px;
-  left: 60px;
-  color: #56819f;
-}
-.navigation .navigation-manager img {
-  margin-left: 10px;
-  width: 40px;
-  height: 40px;
 }
 .navigation .line-horizontal {
   margin: 20px 0;

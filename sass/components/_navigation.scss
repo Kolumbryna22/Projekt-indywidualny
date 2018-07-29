@@ -5,51 +5,12 @@
     padding-top: 70px;
     background-color: $color-nav-background;
     color: $color-nav-text;
-
-    .navigation-item {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;    
-        height: 45px;
-        width: 100%;
-
-        img {
-            margin-left: 20px;
-            width: 16px;
-            height: 16px;
-        }
-
-        a {
-            padding-top: 7px;
-            padding-left: 15px;
-            color: $color-nav-text;
-        }
-
-        &:hover {
-            background-color: $color-link-active;
-            color: white;
-
-            .button-nav {
-                background-color: $color-link-active;
-            }
-        }
-    }
-
-    .navigation-manager {
-        position: relative;
-
-        a {
-            position: absolute;
-            top: 70px;
-            left: 60px;
-            color: $color-link;
-        }
-
-        img {
-            margin-left: 10px;
-            width: 40px;
-            height: 40px;
-        }
+    z-index: 2;
+    
+    a {
+        padding-top: 7px;
+        padding-left: 15px;
+        color: $color-nav-text;
     }
 
     .line-horizontal {

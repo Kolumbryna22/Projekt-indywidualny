@@ -1,0 +1,42 @@
+.navigation-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    height: 45px;
+    width: 100%;
+
+    img {
+        margin-left: 20px;
+        width: 16px;
+        height: 16px;
+    }
+
+    &:hover {
+        background-color: $color-link-active;
+        a {
+            color: $color-active;
+        }
+
+        .button-nav {
+            background-color: $color-link-active;
+            color: $color-active;
+        }
+    }
+}
+
+.navigation-manager {
+    position: relative;
+
+    a {
+        position: absolute;
+        top: 65px;
+        left: 50px;
+        color: $color-link;
+    }
+
+    img {
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+    }
+}
