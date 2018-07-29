@@ -1,0 +1,23 @@
+.links-table {
+    .button-minimal{
+        float: right;
+        display: none;
+    }
+
+    .line-horizontal {
+        margin: 0;
+    }
+
+    .row {
+        padding: 22px 10px;
+
+        &:hover {
+            background-color: $color-active;
+
+            .button-minimal {
+                display: block;
+                background-color: $color-active;
+            }
+        }
+    }
+}
