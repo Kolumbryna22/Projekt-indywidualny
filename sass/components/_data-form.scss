@@ -5,15 +5,16 @@
     padding-bottom: 40px;
 
     .data-form {
-        width: 327px;
+        width: 350px;
         border: 1px solid $color-line;
         border-radius: 3px;
         display: flex;
         margin-right: 20px;
 
-        p {
-            margin: 0;
-            padding: 15px 50px 15px 15px;
+        input {
+            padding: 15px 15px 15px 10px;
+            border: none;
+            width: 49%;
         }
 
         .line-vertical {

@@ -1121,15 +1121,16 @@ section {
   padding-bottom: 40px;
 }
 .data-container .data-form {
-  width: 327px;
+  width: 350px;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   display: flex;
   margin-right: 20px;
 }
-.data-container .data-form p {
-  margin: 0;
-  padding: 15px 50px 15px 15px;
+.data-container .data-form input {
+  padding: 15px 15px 15px 10px;
+  border: none;
+  width: 49%;
 }
 .data-container .data-form .line-vertical {
   height: 31px;
