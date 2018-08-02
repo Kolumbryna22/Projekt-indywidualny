@@ -1251,10 +1251,7 @@ section {
   top: 30px;
 }
 
-.disable-links {
-  display: none;
-}
-
+.disable-links,
 .disable-banners {
   display: none;
 }
