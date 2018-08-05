@@ -331,11 +331,6 @@ template {
   display: none;
 }
 
-/* elements for grid */
-* {
-  box-sizing: border-box;
-}
-
 [class*=col-] {
   float: left;
   min-height: 1px;
@@ -702,10 +697,6 @@ section {
   font-weight: bold;
 }
 
-.header-margin {
-  margin-right: 10px;
-}
-
 @media (max-width: 768px) {
   .center-text-s {
     text-align: center;
@@ -714,7 +705,7 @@ section {
     width: 100%;
   }
 
-  .pg-b-small-s {
+  .pg-b-small-mobile {
     padding-bottom: 20px;
   }
 }
@@ -831,7 +822,6 @@ section {
 
 .active-link {
   background-color: #282828;
-  color: white;
 }
 
 .active-line {
@@ -839,6 +829,14 @@ section {
   width: 4px;
   height: 100%;
   background-color: #f58220;
+}
+
+.addvisible {
+  display: block;
+}
+
+.disablevisible {
+  display: none;
 }
 
 .text-input {
@@ -1025,6 +1023,14 @@ section {
   height: 100%;
 }
 
+.navigation-header-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 45px;
+  width: 100%;
+}
+
 .info-container {
   width: 100%;
   max-width: 640px;
@@ -1058,13 +1064,18 @@ section {
   height: 61px;
   background-color: white;
   border-bottom: 1px solid #e3e3e3;
+  z-index: 10;
 }
 .header p {
   font-size: 28px;
   color: #a6a6a6;
+  margin-right: 10px;
 }
 .header a {
   color: #56819f;
+}
+.header img {
+  margin-right: 10px;
 }
 
 @media (max-width: 687px) {
@@ -1080,11 +1091,15 @@ section {
   background-color: #191919;
   color: #818181;
   z-index: 2;
+  overflow: auto;
 }
 .navigation a {
   padding-top: 7px;
   padding-left: 15px;
   color: #818181;
+}
+.navigation .active-a {
+  color: white;
 }
 .navigation .line-horizontal {
   margin: 20px 0;
@@ -1102,13 +1117,6 @@ section {
 .navigation-header .button-minimal, .navigation-header .button-nav {
   background-color: #191919;
   padding: 0;
-}
-.navigation-header .navigation-header-item {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 45px;
-  width: 100%;
 }
 
 .data-container {
@@ -1249,10 +1257,13 @@ section {
   padding-bottom: 15px;
 }
 .modal-container .button-minimal, .modal-container .button-nav {
-  position: absolute;
+  position: fixed;
+  right: 12%;
+  top: 12%;
   color: #a6a6a6;
-  right: 20px;
-  top: 30px;
+}
+.modal-container .select-item {
+  padding-right: 36px;
 }
 
 .disable-links,
@@ -1260,6 +1271,11 @@ section {
   display: none;
 }
 
+@media (max-width: 768px) {
+  .modal-container .title, .modal-container .info-title, .modal-container .title-select {
+    padding: 15px 0;
+  }
+}
 .banners .line-horizontal {
   margin-bottom: 0;
 }

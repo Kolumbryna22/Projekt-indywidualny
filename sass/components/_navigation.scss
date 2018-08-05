@@ -6,11 +6,16 @@
     background-color: $color-nav-background;
     color: $color-nav-text;
     z-index: 2;
+    overflow: auto;
     
     a {
         padding-top: 7px;
         padding-left: 15px;
         color: $color-nav-text;
+    }
+
+    .active-a {
+        color: white;
     }
 
     .line-horizontal {

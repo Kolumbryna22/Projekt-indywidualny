@@ -36,10 +36,6 @@
     font-weight: bold;
 }
 
-.header-margin {
-    margin-right: $header-margin;
-}
-
 @media (max-width: 768px) {
     .center-text-s {
         text-align: center;
@@ -49,7 +45,7 @@
         }
     }
 
-    .pg-b-small-s {
+    .pg-b-small-mobile {
         padding-bottom: $small;
     }
 }

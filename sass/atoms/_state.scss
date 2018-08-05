@@ -5,7 +5,6 @@
 
 .active-link {
     background-color: $color-link-active;
-    color: white; // nie działa
 }
 
 .active-line {
@@ -13,4 +12,12 @@
     width: 4px;
     height: 100%;
     background-color: $color-button;
+}
+
+.addvisible {
+    display: block;
+}
+
+.disablevisible {
+    display: none;
 }

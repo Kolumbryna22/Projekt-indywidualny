@@ -35,14 +35,26 @@
     }
 
     .button-minimal {
-        position: absolute;
+        position: fixed;
+        right: 12%;
+        top: 12%;
         color: $color-title;
-        right: 20px;
-        top: 30px;
+    }
+
+    .select-item {
+        padding-right: 36px;
     }
 }
 
 .disable-links,
 .disable-banners {
     display: none;
+}
+
+@media (max-width: 768px) {
+    .modal-container {
+        .title {
+            padding: 15px 0; 
+        }
+    }
 }
