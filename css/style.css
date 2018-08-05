@@ -1045,7 +1045,7 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.info-container button {
+.info-container .button-minimal, .info-container .button-nav {
   max-height: 18px;
 }
 
