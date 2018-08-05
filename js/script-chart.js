@@ -3,9 +3,8 @@
 
     var ctx = document.getElementById('myChart').getContext('2d');
 
-    chart
+    //chart
     var chart = new Chart(ctx, {
-        // 1
         type: 'bar',
         data: {
             labels: ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"],

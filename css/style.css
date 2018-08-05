@@ -760,6 +760,7 @@ section {
 }
 
 .reload {
+  display: block;
   height: 2em;
   padding: 0.25em;
   width: 2em;
@@ -1043,6 +1044,9 @@ section {
 .info-container .line-horizontal {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.info-container button {
+  max-height: 18px;
 }
 
 .header {
