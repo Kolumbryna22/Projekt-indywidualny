@@ -3,4 +3,18 @@
     display: flex;
     align-items: center;
     height: 100%;
+
+    p {
+        font-size: 28px;
+        color: $color-title;
+        margin-right: 10px;
+    }
+
+    a {
+        color: $color-link;
+    }
+
+    img {
+        margin-right: 10px;
+    }
 }

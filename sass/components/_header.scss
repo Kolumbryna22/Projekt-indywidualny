@@ -8,20 +8,6 @@
     background-color: $color-section-background;
     border-bottom: 1px solid $color-line;
     z-index: 10;
-
-    p {
-        font-size: 28px;
-        color: $color-title;
-        margin-right: 10px;
-    }
-
-    a {
-        color: $color-link;
-    }
-
-    img {
-        margin-right: 10px;
-    }
 }
 
 @media (max-width: 687px) {
