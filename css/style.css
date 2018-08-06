@@ -831,11 +831,11 @@ section {
   background-color: #f58220;
 }
 
-.addvisible {
+.add-visible {
   display: block;
 }
 
-.disablevisible {
+.disable-visible {
   display: none;
 }
 
@@ -1069,15 +1069,18 @@ section {
 .header p {
   font-size: 28px;
   color: #a6a6a6;
-  margin-right: 10px;
 }
 .header a {
   color: #56819f;
 }
-.header img {
-  margin-right: 10px;
-}
 
+@media (min-width: 688px) {
+  .header p,
+.header img,
+.header a {
+    margin: 5px;
+  }
+}
 @media (max-width: 687px) {
   .header {
     display: none;
