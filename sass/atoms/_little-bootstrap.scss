@@ -1,33 +1,3 @@
-.pg-t-small {padding-top: $small;}
-.pg-r-small {padding-right: $small;}
-.pg-b-small {padding-bottom: $small;}
-.pg-l-small {padding-left: $small;}
-
-.pg-t-medium {padding-top: $medium;}
-.pg-r-medium {padding-right: $medium;}
-.pg-b-medium {padding-bottom: $medium;}
-.pg-l-medium {padding-left: $medium;}
-
-.pg-t-large {padding-top: $large;}
-.pg-r-large {padding-right: $large;}
-.pg-b-large {padding-bottom: $large;}
-.pg-l-large {padding-left: $large;}
-
-.mg-t-small {margin-top: $small;}
-.mg-r-small {margin-right: $small;}
-.mg-b-small {margin-bottom: $small;}
-.mg-l-small {margin-left: $small;}
-
-.mg-t-medium {margin-top: $medium;}
-.mg-r-medium {margin-right: $medium;}
-.mg-b-medium {margin-bottom: $medium;}
-.mg-l-medium {margin-left: $medium;}
-
-.mg-t-large {margin-top: $large;}
-.mg-r-large {margin-right: $large;}
-.mg-b-large {margin-bottom: $large;}
-.mg-l-large {margin-left: $large;}
-
 .mg-t-input {
     margin-top: 33px;
 }
@@ -46,6 +16,6 @@
     }
 
     .pg-b-small-mobile {
-        padding-bottom: $small;
+        padding-bottom: 20px;
     }
 }

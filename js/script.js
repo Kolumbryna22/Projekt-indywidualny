@@ -64,7 +64,9 @@
     };
 
     //chart
-    //if you want to use chart you need to put also
+    //if you want to use chart you need to put
+    //<canvas id="myChart"></canvas>
+    //and before the </body>
     //<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
     //in your html code
     if (ctx) {
