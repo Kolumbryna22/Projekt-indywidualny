@@ -652,6 +652,7 @@ section {
 .single-text {
   color: #333333;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .reload {
@@ -767,6 +768,11 @@ section {
   background-color: #a6a6a6;
 }
 
+@media (max-width: 550px) {
+  .pagination-element-disabled {
+    display: none;
+  }
+}
 .input-item {
   padding: 10px 20px;
   display: flex;
@@ -791,7 +797,8 @@ section {
     padding: 10px 20px;
   }
   .input-item input {
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
   }
 }
 .section-input {
@@ -1164,7 +1171,7 @@ section {
 
 @media (max-width: 710px) {
   .input-container {
-    width: 370px;
+    max-width: 370px;
   }
 }
 .modal {

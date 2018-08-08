@@ -6,3 +6,9 @@
 .pagination-element:hover:not(.active) {
     background-color: $color-title;
 }
+
+@media (max-width: 550px) {
+    .pagination-element-disabled {
+        display: none;
+    }
+}
