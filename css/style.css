@@ -1200,8 +1200,9 @@ section {
   padding-bottom: 15px;
 }
 .modal-container .button-minimal, .modal-container .button-nav {
+  z-index: 10;
   position: fixed;
-  right: 12%;
+  right: 14%;
   margin-top: 20px;
   color: #a6a6a6;
 }
@@ -1225,13 +1226,15 @@ section {
 .banners [class*=col] {
   padding: 20px;
 }
-.banners .line-right {
-  border-right: 1px solid #e3e3e3;
-}
 .banners .row {
   margin-bottom: 0;
 }
 
+@media (min-width: 769px) {
+  .banners .line-right {
+    border-right: 1px solid #e3e3e3;
+  }
+}
 .links-table .button-minimal, .links-table .button-nav {
   float: right;
   display: none;
