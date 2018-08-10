@@ -4,8 +4,22 @@
 
 .button-hamburger {
     @include button-style($color-nav-background, $color-nav-text, 3px);
-    transform: rotate(90deg);
-    font-size: 30px;
+    padding: 0;
+
+    span {
+        display: block;
+        width: 30px;
+        height: 4px;
+        background-color: $color-nav-text;
+        margin: 5px;
+        border-radius: 2px;
+    }
+
+    &:hover {
+        span {
+            background-color: $color-nav-background;
+        }
+    }
 }
 
 .button-copy {
@@ -23,4 +37,10 @@
     margin-left: 10px;
     background-color: $color-nav-background;
     color: $color-nav-text;
+}
+
+@media (max-width: 500px) {
+    .button-normal {
+        width: 80%;
+    }
 }

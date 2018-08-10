@@ -1,20 +1,24 @@
 .header-item {
-    margin: 0 10px;
     display: flex;
     align-items: center;
     height: 100%;
 
+    a {
+        margin-left: 5px;
+    }
+
     p {
         font-size: 28px;
         color: $color-title;
-        margin-right: 10px;
+        margin: 5px;
     }
 
-    a {
-        color: $color-link;
-    }
-
-    img {
-        margin-right: 10px;
+    &:before {
+        content: "";
+        display: block;
+        background-color: $color-line;
+        width: 1px;
+        height: 100%;
+        margin: 0 10px;
     }
 }

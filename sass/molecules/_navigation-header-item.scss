@@ -7,4 +7,12 @@
     p {
         margin: 0 10px;
     }
+
+    a {
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 80%;
+        margin-bottom: 5px;
+    }
 }
