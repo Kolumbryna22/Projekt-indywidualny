@@ -2,7 +2,7 @@
 
 ### to instal packages run:
 ```sh
-$ npm run init-project
+$ npm install
 ```
 
 ### to initialize development mode run:
