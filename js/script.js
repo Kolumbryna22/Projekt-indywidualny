@@ -12,19 +12,22 @@
     var closeBanners = document.getElementById('closeBanners');
     var change = window.innerWidth > 688 ? false : true;
     var ctx = document.getElementById('myChart');
+    var responsiveStep = 688;
+    var sectionPaddingDesktop = "203px";
+    var sectionPaddingMobile = "15px";
 
     //functions for responsive web
     var changeSection = function(x) {
         var section = document.getElementsByTagName('section');
         var i = 0;
         while(section[i]) {
-            section[i].style.paddingLeft = x ? "203px" : "15px";
+            section[i].style.paddingLeft = x ? sectionPaddingDesktop : sectionPaddingMobile;
             i++;
         }
     };
 
     window.addEventListener('resize', function(){
-        if(window.innerWidth > 688) {
+        if(window.innerWidth > responsiveStep) {
             nav.style.display = "block";
             change = false;
         }
@@ -37,10 +40,10 @@
 
     var changeVisible = function() {
         change ? (nav.style.display = "block") : (nav.style.display = "none");
-        if(window.innerWidth < 688) {
+        if(window.innerWidth < responsiveStep) {
             change ? (navigationHeader.style.display = "block") : (navigationHeader.style.display = "none");
         }
-        if(window.innerWidth > 688) {
+        if(window.innerWidth > responsiveStep) {
             changeSection(change);
         }
         change = !change;

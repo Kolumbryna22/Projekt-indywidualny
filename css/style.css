@@ -1073,6 +1073,11 @@ section {
   padding: 0;
 }
 
+@media (min-width: 689px) {
+  .navigation-header {
+    display: none;
+  }
+}
 .data-container {
   width: 100%;
   display: flex;
