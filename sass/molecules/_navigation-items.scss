@@ -5,7 +5,7 @@
     height: 45px;
     width: 100%;
 
-    img {
+    .lnr {
         margin-left: 20px;
         width: 16px;
         height: 16px;
@@ -13,7 +13,9 @@
 
     &:hover {
         background-color: $color-link-active;
-        a {
+
+        a,
+        .lnr {
             color: $color-active;
         }
 

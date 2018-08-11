@@ -14,8 +14,11 @@
         color: $color-nav-text;
     }
 
-    .active-a {
-        color: white;
+    .active-link {
+        a,
+        .lnr {
+            color: $color-active;
+        }
     }
 
     .line-horizontal {

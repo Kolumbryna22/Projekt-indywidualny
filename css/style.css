@@ -781,6 +781,15 @@ section {
     display: none;
   }
 }
+.lnr {
+  font-size: 20px;
+  color: #818181;
+}
+
+.lnr-alarm {
+  font-size: 22px;
+}
+
 .input-item {
   padding: 10px 20px;
   display: flex;
@@ -923,7 +932,7 @@ section {
   height: 45px;
   width: 100%;
 }
-.navigation-item img {
+.navigation-item .lnr {
   margin-left: 20px;
   width: 16px;
   height: 16px;
@@ -931,7 +940,8 @@ section {
 .navigation-item:hover {
   background-color: #282828;
 }
-.navigation-item:hover a {
+.navigation-item:hover a,
+.navigation-item:hover .lnr {
   color: #f2f2f2;
 }
 .navigation-item:hover .button-nav {
@@ -1052,8 +1062,9 @@ section {
   padding-left: 15px;
   color: #818181;
 }
-.navigation .active-a {
-  color: white;
+.navigation .active-link a,
+.navigation .active-link .lnr {
+  color: #f2f2f2;
 }
 .navigation .line-horizontal {
   margin: 20px 0;
